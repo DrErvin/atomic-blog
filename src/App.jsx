@@ -176,7 +176,9 @@ function Archive() {
 }
 
 function Footer() {
-  return <footer>&copy; by The Atomic Blog ✌️</footer>;
+  return (
+    <footer>&copy; by Ervin Dragovic - The Atomic Blog ✌️</footer>
+  );
 }
 
 export default App;
